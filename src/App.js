@@ -1,7 +1,5 @@
 import './App.css';
 import Header from './Components/Header';
-//import ReactDOM from "react-dom/client"
-//import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Home from "./Components/Home"
 import About from "./Components/About"
 import Service from "./Components/Service"
@@ -26,37 +24,5 @@ const App = () => {
   );
 }
 
-// const appRouter = createBrowserRouter(
-//   [
-//     {
-//       path: "/",
-//       element: <App />
-//     },
-//     {
-//       path: "/",
-//       element: <Home />
-//     },
-//     {
-//       path: "/about",
-//       element: <About />
-//     },
-//     {
-//       path: "/contact",
-//       element: <Contact />
-//     },
-//     {
-//       path: "/service",
-//       element: <Service />
-//     },
-//     {
-//       path: "/support",
-//       element: <Support />
-//     }
-
-//   ]
-// )
-
-// const root = ReactDOM.createRoot(document.getElementById("root"))
-// root.render(<RouterProvider router={appRouter} />)
 
 export default App;
