@@ -1,5 +1,6 @@
 import './App.css';
 import Header from './Components/Header';
+import Footer from './Components/Footer'
 import Home from "./Components/Home"
 import About from "./Components/About"
 import Service from "./Components/Service"
@@ -19,6 +20,7 @@ const App = () => {
         <Route path="/service" element={<Service/>}/>
         <Route path="/support" element={<Support/>}/>
       </Routes>
+      <Footer/>
     </div>
     
   );
